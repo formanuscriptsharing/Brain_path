@@ -1,0 +1,82 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyTorch (small files only, large files handled by Git LFS)
+*.pt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Environment variables
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Data files (small files only, large files handled by Git LFS)
+*.npy
+*.npz
+*.h5
+*.hdf5
+
+# Log files
+*.log
+logs/
+wandb/
+
+# Large image files are now handled by Git LFS
+# *.png
+# *.jpg
+# *.jpeg
+# *.tiff
+# *.tif
+
+# Model checkpoints are now handled by Git LFS
+# check_point_model_*.pth
+
+# Experiment results directories - keep logs only
+3dunet/ex_*/logs.txt
